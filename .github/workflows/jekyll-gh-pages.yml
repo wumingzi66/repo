@@ -5,7 +5,9 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["master"]
-
+    paths:
+      - 'debs/*.deb'
+      
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -30,6 +32,12 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: Generate Packages file
+        run: |
+          sudo rm -f Packages Packages.bz2 Packages.gz
+          sudo dpkg-scanpackages --multiversion debs >> Packages
+          cat Packages | gzip > Packages.gz
+          cat Packages | bzip2 > Packages.bz2
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
