@@ -1,3 +1,40 @@
-# Axs Repository
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8"/>
+		<title>添加软件源</title>
+		<script>
+			addEventListener("load", function () {
+				setTimeout(hideURLbar, 0);
+			}, false);
+			function hideURLbar() {
+				window.scrollTo(0, 1);
+			}
+		</script>
+		<link rel="stylesheet" href="./css/style.css" type="text/css" media="all" />
+		<link href="css/font-awesome.min.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="sub-main-w3"/>
+		<div class="bg-content-w3pvt"/>
+		<div class="top-content-style"/>
 
-This is a Self-use Software Source
+		<div class="main-bg"/>
+		<h1>Axs Repo</h1>
+		</div>
+		<form action="#" method="post">
+				<p class="legend">添加软件源到 Sileo<span class="fa fa-hand-o-down"></span></p>
+				<a href="sileo://source/https://wumingzi66.github.io/repo/" class="follow-button">添加</a>
+				<p class="legend"></span></p>
+				<p class="legend">添加软件源到 Saily<span class="fa fa-hand-o-down"></span></p>
+				<a href="apt-repo://source/https://wumingzi66.github.io/repo/" class="follow-button">添加</a>
+                                <p class="legend"></span></p>
+			        <p class="legend">添加软件源到 Zebra<span class="fa fa-hand-o-down"></span></p>
+				<a href="apt-repo://source/https://wumingzi66.github.io/repo/" class="follow-button">添加</a>
+		<img src="Axs.png" alt=""/>			
+		</form>
+		<p style="color:#ff0000;"><--- 不要为了越狱放弃升级的乐趣！---></p>
+		</br>
+		</br>
+	</body>
+</html>
+			
