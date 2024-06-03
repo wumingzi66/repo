@@ -1,9 +1,9 @@
-Origin: XiaoYang's Repo
-Label: XiaoYang's Repo
+Origin: Axs Repo
+Label: Axs Repo
 Suite: stable
 Version: 1.0
-Codename: XiaoYang
+Codename: Axs
 Architectures: iphoneos-arm64
 Components: master
-Description: XiaoYang's Sileo Repository
+Description: Axs Sileo Repository
 Icon: file://CydiaIcon.png
